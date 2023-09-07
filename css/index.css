@@ -2864,6 +2864,15 @@ body.lock {
   text-align: center;
 }
 
+@media (min-width:767px) {
+  .form__btn .points .intro__btn span br,
+  .points .form__btn a br,
+  .points .form__btn span br,
+  .points .intro__btn a br {
+    display: none;
+  }
+}
+
 .points__content {
   display: -webkit-box;
   display: -ms-flexbox;
